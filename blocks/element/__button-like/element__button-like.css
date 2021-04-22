@@ -1,0 +1,21 @@
+.element__button-like {
+  background-image: url(../../../images/like-batton.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  min-width: 22px;
+  min-height: 19px;
+  outline: none;
+  display: block;
+}
+
+.element__button-like:hover {
+  opacity: .5;
+}
+
+.element__button-like:active {
+  background-image: url('../../../images/like-batton-active.svg');
+  opacity: 1;
+}
+
