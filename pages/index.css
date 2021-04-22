@@ -13,7 +13,7 @@
 @import url(../blocks/profile/__info/profile__info.css);
 @import url(../blocks/profile/__name/profile__name.css);
 @import url(../blocks/profile/__edit-batton/profile__edit-batton.css);
-@import url(../blocks/profile/__about/profile__about.css);
+@import url(../blocks/profile/__job/profile__job.css);
 @import url(../blocks/profile/__batton-add/profile__batton-add.css);
 
 @import url(../blocks/elements/elements.css);
@@ -28,11 +28,10 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@import url(../blocks/popap/popap.css);
-@import url(../blocks/popap/__container/popap__container.css);
-@import url(../blocks/popap/__batton-close/popap__batton-close.css);
-@import url(../blocks/popap/__title/popap__title.css);
-@import url(../blocks/popap/__input/popap__input.css);
-@import url(../blocks/popap/__batton-save/popap__batton-save.css);
-@import url(../blocks/popap/_opened/popup_opened.css);
-
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__batton-close/popup__batton-close.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__input/popup__input.css);
+@import url(../blocks/popup/__batton-save/popup__batton-save.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
