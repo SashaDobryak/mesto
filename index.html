@@ -25,7 +25,6 @@
       <button type="button" aria-label="Добавить" class="profile__button-add"></button>
     </section>
     
-
     <section class="elements">
       <ul class="elements__block">
         <li class="element">
@@ -76,6 +75,18 @@
   <footer class="footer body__container">
     <p class="footer__copyright">&#169;2021. Александр Добряк</p>
   </footer>
-
+  
+  <section class="popup">
+    <div class="popup__container">
+       <button type="button" class="popup__batton-close" aria-label="Закрыть окно"></button>
+       <form name="popup__form" action="#" method="get" class="popup__form">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input type="text" name="popup__name" id="popup__name" class="popup__input">
+          <input type="text" name="popup__prof" id="popup__prof" class="popup__input">
+          <input type="submit" value="Сохранить" class="popup__button-save">
+       </form>
+    </div>
+  </section>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

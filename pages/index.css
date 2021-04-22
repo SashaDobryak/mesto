@@ -27,3 +27,12 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popap/popap.css);
+@import url(../blocks/popap/__container/popap__container.css);
+@import url(../blocks/popap/__batton-close/popap__batton-close.css);
+@import url(../blocks/popap/__title/popap__title.css);
+@import url(../blocks/popap/__input/popap__input.css);
+@import url(../blocks/popap/__batton-save/popap__batton-save.css);
+@import url(../blocks/popap/_opened/popup_opened.css);
+

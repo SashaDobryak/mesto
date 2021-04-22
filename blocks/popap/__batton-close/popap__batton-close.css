@@ -1,0 +1,29 @@
+.popup__batton-close {
+  padding: 0;
+  position: absolute;
+  right: -35px;
+  top: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../../images/close-icone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  transition: opacity 0.5s;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+ 
+.popup__batton-close:hover {
+  opacity: 0.6;
+}
+ 
+@media (max-width: 800px) {
+  .popup__batton-close {
+    width: 21px;
+    height: 21px;
+    right: 7px;
+    top: -42px;
+  }
+}
