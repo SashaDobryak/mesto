@@ -1,4 +1,4 @@
-.popup__batton-close {
+.popup__button-close {
   padding: 0;
   position: absolute;
   right: -35px;
@@ -15,12 +15,12 @@
   outline: none;
 }
  
-.popup__batton-close:hover {
+.popup__button-close:hover {
   opacity: 0.6;
 }
  
 @media (max-width: 800px) {
-  .popup__batton-close {
+  .popup__button-close {
     width: 21px;
     height: 21px;
     right: 7px;
